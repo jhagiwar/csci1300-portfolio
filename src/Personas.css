@@ -1,43 +1,62 @@
-.Personas {
+.gallery-container {
+    /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-content: center;
-    background-color: var(--lightest-green);
+
 }
 
-.ProjectSection {
+.gallery-item {
+    /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 80%;
-
-}
-
-.ProjectSection h1 {
-    width: 30%;
-    text-align: end;
-
-}
-
-.ProjectSection p {
-    width: 60%;
-    text-align: start;
-}
-
-.ProjectSection * {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-}
-
-.rowContainer {
-    display: flex;
-    flex-direction: row;
-}
-
-.colContaioner {
-    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 21%;
     flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.gallery-image {
+    /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 5px solid #000000;
+    height: 300px;
+    width: 300px;
+
+}
+
+.persona-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.persona h2 {
+    text-align: center;
+}
+
+.persona {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 35%;
+    text-align: left;
+}
+
+.persona * {
+    padding: 0px 10px;
+}
+
+.text-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    justify-content: space-evenly;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
 }

@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { Link, Route, Routes } from 'react-router-dom';
 import Home from './Home';
 import Personas from './Personas';
+import Responsive from './Responsive';
 
 function App() {
 
@@ -19,6 +20,14 @@ function App() {
           <>
             <AppHeader title="Personas & Storyboard" />
             <Personas />
+            <h1><Link className="HomeButton" to="/">
+              See All Projects</Link></h1>
+          </>
+        } />
+        <Route path="/ResponsiveRedesign" element={
+          <>
+            <AppHeader title="Responsive Redesign" />
+            <Responsive />
             <h1><Link className="HomeButton" to="/">
               See All Projects</Link></h1>
           </>
