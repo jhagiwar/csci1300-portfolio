@@ -1,0 +1,37 @@
+.category-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.subcategory-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 30px;
+}
+
+.rowContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.usabilityText {
+    display: flex;
+    width: 40%;
+}
+
+.usabilityText h2 {
+    font-size: 1.3em;
+    margin: 10px;
+}
+
+a {
+    color: var(--darkest-green);
+    font-size: 2em;
+}

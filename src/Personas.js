@@ -23,7 +23,7 @@ function Personas() {
                         <p> Larry is a college student who is running late for a class across campus. The Spin Scooter interface allows
                             Larry to quickly connect his ride to the app, operate the scooter and monitor his speed. Larry
                             represents users who are in a rush and looking for a quick and easy mode of transportation.</p>
-                        <img src="images/PersonaEmpathyMap1.jpg" alt="Sketch of the spin scooter user interface" width={'90%'} />
+                        <img src="images/personas/PersonaEmpathyMap1.jpg" alt="Sketch of the spin scooter user interface" width={'90%'} />
                     </div>
                     <div class="persona">
                         <h2>Social Suzy</h2>
@@ -32,7 +32,7 @@ function Personas() {
                             operate
                             the scooter at the speed she desires, and monitor the battery of the scooter. Suzy represents users who's
                             priority is a inexpensive and fun way to travel to a given destination. </p>
-                        <img src="images/PersonaEmpathyMap2.jpg" alt="Sketch of the spin scooter user interface" width={'90%'} />
+                        <img src="images/personas/PersonaEmpathyMap2.jpg" alt="Sketch of the spin scooter user interface" width={'90%'} />
                     </div>
                 </div>
             </div>
@@ -40,45 +40,45 @@ function Personas() {
                 <h1>Storyboard</h1>
                 <div class="gallery-container">
                     <div class="gallery-item">
-                        <img class="gallery-image" src="images/Storyboard1.jpeg" alt="Panel 1 of Storyboard" />
+                        <img class="gallery-image" src="images/personas/Storyboard1.jpeg" alt="Panel 1 of Storyboard" />
                         <p> Larry just got out of a meeting that ran over time. He is now running late to his class that is across
                             campus.</p>
                     </div>
                     <div class="gallery-item">
-                        <img class="gallery-image" src="images/Storyboard2.jpg" alt="Panel 2 of Storyboard" />
+                        <img class="gallery-image" src="images/personas/Storyboard2.jpg" alt="Panel 2 of Storyboard" />
                         <p> Larry sees a spin scooter and debates running to class or riding the spin scooter.</p>
                     </div>
 
                     <div class="gallery-item">
-                        <img class="gallery-image" src="images/Storyboard3.jpg" alt="Panel 3 of Storyboard" />
+                        <img class="gallery-image" src="images/personas/Storyboard3.jpg" alt="Panel 3 of Storyboard" />
                         <p> Larry takes out his phone, opens the Spin app and scans the QR code on the top of the handlebar on the
                             scooter.</p>
                     </div>
 
                     <div class="gallery-item">
-                        <img class="gallery-image" src="images/Storyboard4.jpg" alt="Panel 4 of Storyboard" />
+                        <img class="gallery-image" src="images/personas/Storyboard4.jpg" alt="Panel 4 of Storyboard" />
                         <p> Looking at the screen on the scooter Larry checks that the scooter has enough battery to get him to his
                             class.</p>
                     </div>
 
                     <div class="gallery-item">
-                        <img class="gallery-image" src="images/Storyboard5.jpg" alt="Panel 5 of Storyboard" />
+                        <img class="gallery-image" src="images/personas/Storyboard5.jpg" alt="Panel 5 of Storyboard" />
                         <p> He then begins his ride on the Spin app and gets on the scooter. </p>
                     </div>
 
                     <div class="gallery-item">
-                        <img class="gallery-image" src="images/Storyboard6.jpg" alt="Panel 6 of Storyboard" />
+                        <img class="gallery-image" src="images/personas/Storyboard6.jpg" alt="Panel 6 of Storyboard" />
                         <p> Using the brakes and the acceleration lever on the user interface on the handlebar Larry navigates to class.
                         </p>
                     </div>
 
                     <div class="gallery-item">
-                        <img class="gallery-image" src="images/Storyboard7.jpg" alt="Panel 7 of Storyboard" />
+                        <img class="gallery-image" src="images/personas/Storyboard7.jpg" alt="Panel 7 of Storyboard" />
                         <p> Larry also checks his current speed on the interface to make sure he is complying with street safety laws.
                         </p>
                     </div>
                     <div class="gallery-item">
-                        <img class="gallery-image" src="images/Storyboard8.jpg" alt="Panel 8 of Storyboard" />
+                        <img class="gallery-image" src="images/personas/Storyboard8.jpg" alt="Panel 8 of Storyboard" />
                         <p> Larry ends his ride and arrives to class on time!</p>
                     </div>
                 </div>
