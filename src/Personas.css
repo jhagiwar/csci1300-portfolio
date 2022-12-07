@@ -1,0 +1,43 @@
+.Personas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    background-color: var(--lightest-green);
+}
+
+.ProjectSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80%;
+
+}
+
+.ProjectSection h1 {
+    width: 30%;
+    text-align: end;
+
+}
+
+.ProjectSection p {
+    width: 60%;
+    text-align: start;
+}
+
+.ProjectSection * {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.rowContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.colContaioner {
+    display: flex;
+    flex-direction: column;
+}
