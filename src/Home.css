@@ -1,7 +1,17 @@
+.Home {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 50px;
+}
+
 .ProjectGallery {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-evenly;
+    align-content: space-evenly;
 }
 
 .ProjectCard {
@@ -10,7 +20,7 @@
     justify-content: center;
     align-content: center;
     width: 40%;
-    padding: 2%;
+    padding: 20px 10px;
 }
 
 .ProjectCardMain {
@@ -19,11 +29,44 @@
 }
 
 .ProjectCardMain:hover .ProjectCardMainImage {
+    animation-name: hoverFadeIn;
+    animation-duration: 0.25s;
     opacity: 0.25;
+    scale: 1.05;
+}
+
+.AboutMe {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: left;
+    align-content: center;
+}
+
+.AboutMe p {
+    vertical-align: middle;
+}
+
+@keyframes hoverFadeIn {
+    from {
+        opacity: 1;
+        scale: 1;
+
+    }
+
+    to {
+        opacity: 0.25;
+        scale: 1.05;
+    }
 }
 
 .ProjectCardMain:hover .hoverText {
     opacity: 1;
+}
+
+.ProjectCardMainImage {
+    width: 90%;
+    border-radius: 10px;
 }
 
 .ProjectCardMainImage {
@@ -40,4 +83,13 @@
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
+}
+
+.gallery-header {
+    font-size: 1.3em;
+    padding-top: 30px;
+}
+
+img {
+    border-radius: 10px;
 }

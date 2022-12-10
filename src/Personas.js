@@ -13,21 +13,21 @@ function Personas() {
                 <h1>Research & Background</h1>
                 <p> The first step in creating personas and a storyboard was to step into a user’s shoes as they interact with a scooter interface. To do so I observed users interact with the scooter interface, created interview questions and conducted interviews with real users. Based on the responses from the interviews I then created two personas with empathy maps and a storyboard.
                 </p>
-                <img src="images/SpinInterface.jpg"></img>
+                <img src="images/personas/SpinInterface.jpg"></img>
             </div>
             <div className='Personas'>
                 <h1>Personas</h1>
                 <div class="persona-container">
                     <div class="persona">
                         <h2>Late Larry </h2>
-                        <p> Larry is a college student who is running late for a class across campus. The Spin Scooter interface allows
+                        <p style={{ 'height': '170px' }}> Larry is a college student who is running late for a class across campus. The Spin Scooter interface allows
                             Larry to quickly connect his ride to the app, operate the scooter and monitor his speed. Larry
                             represents users who are in a rush and looking for a quick and easy mode of transportation.</p>
                         <img src="images/personas/PersonaEmpathyMap1.jpg" alt="Sketch of the spin scooter user interface" width={'90%'} />
                     </div>
                     <div class="persona">
                         <h2>Social Suzy</h2>
-                        <p> Suzy is a young woman who is looking for a fun and inexpensive way to travel with her sister to meet her
+                        <p style={{ 'height': '170px' }}> Suzy is a young woman who is looking for a fun and inexpensive way to travel with her sister to meet her
                             friends at a bowling alley. The Spin Scooter interface allows her to easily connect the ride to her app,
                             operate
                             the scooter at the speed she desires, and monitor the battery of the scooter. Suzy represents users who's

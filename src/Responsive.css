@@ -21,9 +21,27 @@
     align-content: center;
 }
 
+.colContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.catContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    width: 35%;
+}
+
 .usabilityText {
     display: flex;
-    width: 40%;
+    width: 90%;
+    text-align: start;
 }
 
 .usabilityText h2 {
@@ -34,4 +52,8 @@
 a {
     color: var(--darkest-green);
     font-size: 2em;
+}
+
+img {
+    border-radius: 25px;
 }

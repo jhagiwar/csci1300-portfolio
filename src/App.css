@@ -10,8 +10,24 @@
 }
 
 .App {
+  text-align: center;
   font-family: 'League Spartan', 'Montserrat', 'arial', 'sans-serif';
   background-color: var(--lightest-green);
+  padding-bottom: 50px;
+}
+
+.NavBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-content: center;
+  padding: 1em;
+}
+
+.NavBarElement {
+  color: var(--darkest-green);
+  text-decoration: none;
+  margin: 10px;
 }
 
 .App-header {
@@ -34,16 +50,58 @@
   color: var(--darkest-green);
 }
 
+@keyframes fadeIn {
+  from {
+    opacity: 0.5;
+
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes grow {
+  from {
+    scale: 0.95;
+
+  }
+
+  to {
+    scale: 1;
+  }
+}
+
+
+.header-text {
+  position: relative;
+  animation-name: fadeIn, grow;
+  animation-duration: 2s;
+}
+
+.header-sub {
+  font-size: 0.5em;
+  padding: 30px;
+}
+
+
 .HomeButton {
-  color: var(--darkest-green);
-  font-size: 0.7em;
-  margin: 10px;
+  background-color: var(--darkest-green);
+  color: var(--lightest-green);
+  font-size: 2em;
+  padding: 10px;
+  margin: 10;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.HomeButton:hover {
+  background-color: var(--mid-green);
 }
 
 h1 {
   color: var(--darkest-green);
   font-size: 3.5em;
-  text-align: center;
 }
 
 h2 {
@@ -52,7 +110,18 @@ h2 {
 }
 
 p {
-  font-size: 1.3em;
+  font-size: 1.1em;
   font-weight: 600;
   font-family: 'Montserrat'
+}
+
+
+.hoverText p {
+  font-size: 0.6em;
+  font-weight: 600;
+  font-family: 'Montserrat'
+}
+
+img {
+  border-radius: 10px;
 }

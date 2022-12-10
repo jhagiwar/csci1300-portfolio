@@ -8,17 +8,20 @@
 
 .ProjectSection {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     flex-direction: row;
     align-content: center;
     justify-content: space-around;
     width: 80%;
-
+    border-radius: 10px;
+    padding: 50px 0px;
 }
+
 
 .ProjectSection h1 {
     width: 30%;
     text-align: end;
+    border-radius: 10px;
 
 }
 
@@ -42,4 +45,8 @@
 .colContaioner {
     display: flex;
     flex-direction: column;
+}
+
+img {
+    border-radius: 25px;
 }
