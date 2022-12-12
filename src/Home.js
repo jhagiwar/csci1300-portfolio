@@ -11,7 +11,7 @@ const projectData = [
         name: "MetroNails Redesign", image: "images/responsiveredesigncover.png", href: "/ResponsiveRedesign", shortDescription: "Makeover time! Take a look at this redesign of the MetroNails website, the website of a Nail Salon in Providence"
     },
     {
-        name: "Lancey", image: "images/lancey.png", href: "/IterativeDesign", shortDescription: "and makes us rather bear those ills we have, than fly to others that we know not of? Thus consience doth make cowards of us all; and thus the native hue of resolution is sicklied o'er with the pale cast of thought, and enterprises of great pith and moment with this regard their currents turn awry, and lose the name of action."
+        name: "Lancey", image: "images/lancey.png", href: "/IterativeDesign", shortDescription: "Come with me as I design an interface for Y Combinator startup Lancey!"
     }
     ,
     {

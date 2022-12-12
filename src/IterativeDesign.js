@@ -16,7 +16,9 @@ function IterativeDesign() {
                     keep track of their projects and share them with their users.
                 </p>
             </div>
-            <a href="https://www.ycombinator.com/companies/lancey">Learn More About Lancey Here!</a>
+            <div className='ProjectSection'>
+                <a href="https://www.ycombinator.com/companies/lancey">Learn More About Lancey Here!</a>
+            </div>
             <div className='ProjectSection'>
                 <h1>Initial Sketches</h1>
                 <p>To start, we created 4 different sketches for our design.
