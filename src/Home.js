@@ -4,12 +4,19 @@ import { useState } from 'react';
 import { Link, Route, Routes } from 'react-router-dom';
 
 const projectData = [
-    { name: "Who Spins There?", image: "images/small_scooter.jpg", href: "/PersonasAndStoryboard", shortDescription: "Come with me on my journey to better understand the users of spin scooters! This includes interview summaries, user personas, and a storyboard" },
+    {
+        name: "Who Spins There?", image: "images/small_scooter.jpg", href: "/PersonasAndStoryboard", shortDescription: "Come with me on my journey to better understand the users of spin scooters! This includes interview summaries, user personas, and a storyboard"
+    },
     {
         name: "MetroNails Redesign", image: "images/responsiveredesigncover.png", href: "/ResponsiveRedesign", shortDescription: "Makeover time! Take a look at this redesign of the MetroNails website, the website of a Nail Salon in Providence"
     },
-    { name: "Delightful Candles", image: "landscape.jpg", href: "/Development", shortDescription: "Want to browse some delightful candles? This was my first interactive interface and is a shopping page for a fictional candle shop." },
-    { name: "Other Proj", image: "landscape.jpg", href: "/Development", shortDescription: "and makes us rather bear those ills we have, than fly to others that we know not of? Thus consience doth make cowards of us all; and thus the native hue of resolution is sicklied o'er with the pale cast of thought, and enterprises of great pith and moment with this regard their currents turn awry, and lose the name of action." }
+    {
+        name: "Lancey", image: "images/lancey.png", href: "/IterativeDesign", shortDescription: "and makes us rather bear those ills we have, than fly to others that we know not of? Thus consience doth make cowards of us all; and thus the native hue of resolution is sicklied o'er with the pale cast of thought, and enterprises of great pith and moment with this regard their currents turn awry, and lose the name of action."
+    }
+    ,
+    {
+        name: "My Super Great Candle Shop", image: "images/candle.jpg", href: "/Development", shortDescription: "Want to browse some delightful candles? This was my first interactive interface and is a shopping page for a fictional candle shop."
+    },
 ]
 
 

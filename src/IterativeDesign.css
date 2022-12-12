@@ -1,0 +1,42 @@
+.rowContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.colContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    width: 30%;
+}
+
+.image-fluid {
+    width: 25%;
+
+}
+
+.image-wireframe {
+    width: 90%;
+
+}
+
+a {
+    color: var(--darkest-green);
+    font-size: 2em;
+}
+
+.container-wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.hi-fi-vid {
+    width: 90%;
+    height: 500px;
+}

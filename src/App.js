@@ -6,6 +6,7 @@ import Personas from './Personas';
 import Responsive from './Responsive';
 import { Nav } from 'react-bootstrap';
 import Development from './Development';
+import IterativeDesign from './IterativeDesign';
 
 function App() {
 
@@ -44,8 +45,18 @@ function App() {
           <>
             <a id="top"></a>
             <NavBar />
-            <AppHeader title="Delightful Candles" subtitle="Development" />
+            <AppHeader title="My Super Great Candle Shop" subtitle="Development" />
             <Development />
+            <a href='/#' className="HomeButton">
+              Return To Home</a>
+          </>
+        } />
+        <Route path="/IterativeDesign" element={
+          <>
+            <a id="top"></a>
+            <NavBar />
+            <AppHeader title="Lancey" subtitle="Iterative Design" />
+            <IterativeDesign />
             <a href='/#' className="HomeButton">
               Return To Home</a>
           </>
