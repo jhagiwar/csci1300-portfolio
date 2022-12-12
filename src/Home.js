@@ -1,7 +1,6 @@
 import './Home.css';
 import './Project.css'
-import { useState } from 'react';
-import { Link, Route, Routes } from 'react-router-dom';
+import React from 'react'
 
 const projectData = [
     {

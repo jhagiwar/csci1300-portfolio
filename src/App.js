@@ -1,16 +1,17 @@
 import './App.css';
-import { useState } from 'react';
+
+import React from 'react'
 import { Link, Route, Routes } from 'react-router-dom';
 import Home from './Home';
 import Personas from './Personas';
 import Responsive from './Responsive';
-import { Nav } from 'react-bootstrap';
 import Development from './Development';
 import IterativeDesign from './IterativeDesign';
 
 function App() {
 
   return (
+
     <div className="App">
       <Routes>
         <Route path="/" element={
@@ -63,6 +64,7 @@ function App() {
         } />
       </Routes>
     </div>
+
   )
 }
 

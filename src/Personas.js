@@ -1,5 +1,6 @@
 import './Personas.css';
 import './Project.css';
+import React from 'react'
 
 function Personas() {
     return (

@@ -32,7 +32,7 @@
 
 .App-header {
   /* background-color: #282c34; */
-  background-image: url('../public/background.png');
+  background-image: url('/background.png');
   background-position: center;
   /* Center the image */
   background-repeat: no-repeat;
