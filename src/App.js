@@ -22,7 +22,7 @@ function App() {
             <Home />
           </>
         } />
-        <Route path="/PersonasAndStoryboard" element={
+        <Route path="/csci1300-portfolio/PersonasAndStoryboard" element={
           <>
             <a id="top"></a>
             <NavBar />
@@ -32,7 +32,7 @@ function App() {
               Return To Home</a>
           </>
         } />
-        <Route path="/ResponsiveRedesign" element={
+        <Route path="/csci1300-portfolio/ResponsiveRedesign" element={
           <>
             <a id="top"></a>
             <NavBar />
@@ -42,7 +42,7 @@ function App() {
               Return To Home</a>
           </>
         } />
-        <Route path="/Development" element={
+        <Route path="/csci1300-portfolio/Development" element={
           <>
             <a id="top"></a>
             <NavBar />
@@ -52,7 +52,7 @@ function App() {
               Return To Home</a>
           </>
         } />
-        <Route path="/IterativeDesign" element={
+        <Route path="/csci1300-portfolio/IterativeDesign" element={
           <>
             <a id="top"></a>
             <NavBar />
@@ -101,7 +101,7 @@ function NavBar() {
     <div className='NavBar' id='NavBar'>
       <nav>
         <Link to="/" className='NavBarElement'> Home</Link>
-        <a className='NavBarElement' href="/#AboutMe"> About Me</a>
+        <a className='NavBarElement' href="/csci1300-portfolio/#AboutMe"> About Me</a>
       </nav>
     </div>
   )
