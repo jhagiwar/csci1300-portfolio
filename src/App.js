@@ -14,7 +14,7 @@ function App() {
 
     <div className="App">
       <Routes>
-        <Route path="/" element={
+        <Route exact path="/" element={
           <>
             <a id="top"></a>
             <NavBar />
