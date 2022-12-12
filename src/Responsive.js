@@ -115,19 +115,16 @@ function Responsive() {
 
             </div>
             <div className="ProjectSection">
-
-                <div className='colContainer'>
-                    <h1>Final Product!</h1>
-                    <div className='colContainer'>
-                        <a href="https://sleepycow228.github.io/csci1300-responsive-redesign/">Link
-                            To the MetroNails Responsive Redesign</a>
-                        <p>
-                            Here is a link to my responsive redesign of the MetroNails Website! Feel free to play with the size
-                            of your browser to see how the website looks on other computer screens, try changing the font size
-                            on your browser, or to see how the website looks on other devices!
-                        </p>
-                    </div>
-                </div>
+                <p>
+                    Here is a link to my responsive redesign of the MetroNails Website! Feel free to play with the size
+                    of your browser to see how the website looks on other computer screens, try changing the font size
+                    on your browser, or to see how the website looks on other devices!
+                </p>
+            </div>
+            <div className="ProjectSection">
+                <h1>Final Product!</h1>
+                <a href="https://sleepycow228.github.io/csci1300-responsive-redesign/">Link
+                    To the MetroNails Responsive Redesign</a>
             </div>
 
             <div className="ProjectSection">
